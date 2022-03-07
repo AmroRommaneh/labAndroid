@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">PROJECT</string>
+    <string-array name="gender">
+        <item>"Male"</item>
+        <item>"Female"</item>
+
+
+    </string-array>
+
+    <string-array name="city_Palistine">
+        <item>"Ramallah"</item>
+        <item>"Tulkarem"</item>
+        <item>"Nables"</item>
+
+    </string-array>
+
+    <string-array name="city_Egypt">
+        <item>"Cairo"</item>
+        <item>"Alexandria"</item>
+        <item>"Gizeh"</item>
+
+    </string-array>
+
+    <string-array name="city_Jordan">
+        <item>"Amman"</item>
+        <item>"Irbid"</item>
+        <item>"Alzarqa"</item>
+
+    </string-array>
+
+    <string-array name="city_Sudia_Arabi">
+        <item>"Dammam "</item>
+        <item>"Dhahran "</item>
+        <item>"Al Bahah"</item>
+
+    </string-array>
+    <string-array name="city_lebanon">
+        <item>"elhibah "</item>
+        <item>"beirut "</item>
+        <item>"balbk"</item>
+
+    </string-array>
+    <string-array name="city_Syria">
+        <item>"hums "</item>
+        <item>"aleppo "</item>
+        <item>"damscus"</item>
+
+    </string-array>
+    <string-array name="Contry">
+        <item>"Palistine"</item>
+        <item>"Egypt"</item>
+        <item>"Jordan"</item>
+        <item>"Sudia Arabi"</item>
+        <item>"Syria"</item>
+        <item>"lebanon"</item>
+    </string-array>
+    <string-array name="nationality">
+        <item>"Palestinien"</item>
+        <item>"jordanian"</item>
+        <item>"lebenese"</item>
+        <item>"Saudian"</item>
+        <item>"Syrian"</item>
+        <item>"Egyptien"</item>
+    </string-array>
+
+    <string name="title_activity_customer_main_activity">Customer_main_activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_car">Car</string>
+    <string name="menu_reservation">Reservation</string>
+    <string name="menu_favourite">Favourite</string>
+
+
+</resources>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".profile.profileFragment">
+
+    <RelativeLayout
+        android:id="@+id/rellay1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/grad"
+        android:paddingBottom="20dp">
+
+        <TextView
+            android:id="@+id/editprofile_name_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="106dp"
+            android:fontFamily="sans-serif-light"
+            android:textAlignment="viewStart"
+            android:textColor="@color/white"
+            android:textSize="32sp" />
+
+        <ImageView
+            android:id="@+id/profile_pic"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:adjustViewBounds="true"
+            android:onClick="change_pic"
+            android:padding="3dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/man" />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/linlay1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rellay1"
+        android:layout_marginTop="25dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/editProfileFirstnameBox"
+                    android:layout_width="183dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="20dp"
+                    android:backgroundTint="@android:color/transparent"
+                    android:hint="First Name"
+                    android:inputType="textEmailAddress"
+                    android:padding="15dp"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/editProfileLastnameBox"
+                    android:layout_width="202dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@android:color/transparent"
+                    android:hint="Last Name"
+                    android:inputType="textPersonName"
+                    android:padding="15dp"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="10dp"
+                android:background="#834F4F" />
+
+            <EditText
+                android:id="@+id/editProfilePhoneBox"
+                android:layout_width="385dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="30dp"
+                android:backgroundTint="@android:color/transparent"
+                android:hint="Phone : 05"
+                android:inputType="textEmailAddress"
+                android:padding="15dp"
+                android:textColor="@color/black" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="10dp"
+                android:background="#834F4F" />
+
+            <EditText
+                android:id="@+id/editProfilePassBox"
+                android:layout_width="389dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@android:color/transparent"
+                android:hint="Password"
+                android:inputType="textVisiblePassword|textPassword"
+                android:padding="15dp"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/editProfilePassBox2"
+                android:layout_width="389dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="30dp"
+                android:backgroundTint="@android:color/transparent"
+                android:hint="Confirm Password"
+                android:inputType="textPassword"
+                android:padding="15dp"
+                android:textColor="@color/black" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="10dp"
+                android:background="#834F4F" />
+
+            <Button
+                android:id="@+id/editprofile_savebtn"
+                android:layout_width="match_parent"
+                android:layout_height="61dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:backgroundTint="@color/black"
+                android:text="Confirm"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>
+
